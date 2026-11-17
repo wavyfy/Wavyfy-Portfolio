@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Carousel from "./Carousel";
+import ComingSoon from "./ComingSoon";
 import { Reveal } from "./Reveal";
 
 import { content } from "@/content/content";
@@ -49,22 +49,12 @@ export default function ShowcaseSection() {
               slideSize="380px"
               gap="20px"
               gapLg="50px"
-              slides={slides.map(({ src, alt }, i) => (
+              slides={slides.map((_, i) => (
                 <div
                   key={i}
                   className="rounded-[20px] p-2 bg-white/80 border border-gray-200 shadow-lg flex-1 flex flex-col w-full h-[230px] sm:h-[230px] sm:w-[400px]"
                 >
-                  <div className="rounded-[16px] overflow-hidden bg-white flex-1 relative group cursor-pointer">
-                    <Image
-                      src={src}
-                      alt={alt}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 700px"
-                      quality={75}
-                      priority={i === 0}
-                      className="object-cover"
-                    />
-                  </div>
+                  <ComingSoon />
                 </div>
               ))}
             />

@@ -30,7 +30,7 @@ export const content = {
       line2: "Let's build it right.",
     },
     description:
-      "We build Websites, Shopify Stores, SaaS Platforms and Apps that fits your budget and goals",
+      "We build websites, apps, and SaaS platforms tailored to your budget and goals.",
     testimonials: {
       left: [
         {
@@ -105,6 +105,10 @@ export const content = {
       {
         src: "/Showcase 3.png",
         alt: "BIBA fashion e-commerce website design showcasing new arrivals and collections",
+      },
+      {
+        src: "/Showcase 4.png",
+        alt: "Premium showcase design project highlighting custom UI/UX elements",
       },
     ] as ShowcaseSlide[],
   },
@@ -232,44 +236,44 @@ export const content = {
     title: "Choose a service",
     subtitle: "Aligned with your goals.",
     description:
-      "We build Shopify stores, SaaS platforms, and apps that perform, scale, and convert.",
+      "We build websites, apps, and SaaS platforms designed to perform and grow with your business.",
     list: [
       {
         theme: "dark",
-        title1: "Web & App",
+        title1: "App",
         title2: "Development",
         description:
-          "High performance websites and mobile apps built for seamless user experience. Pricing is based on your requirements.",
+          "Thoughtful mobile apps built to give your customers a seamless experience on the go.",
         price: "Custom",
         cycle: "Scope-based pricing",
         pricePrefix: "",
         badge: null,
         features: [
-          { text: "Custom web or React Native mobile app" },
+          { text: "Custom mobile app development" },
           { text: "UI/UX design included" },
           { text: "Responsive & cross-platform (iOS + Android)" },
-          { text: "SEO basics & page speed optimization" },
+          { text: "Performance optimization" },
           { text: "API integrations & third-party services" },
-          { text: "Delivery & timeline varies for apps & websites" },
+          { text: "Delivery tailored to your project scope" },
         ],
       },
       {
         theme: "dark",
-        title1: "Shopify",
+        title1: "Web",
         title2: "Development",
         description:
-          "A Shopify store built to convert with custom design and complete setup. Ideal for clothing, jewellery, beauty, and home brands",
-        price: "₹ 20,000",
-        cycle: "",
-        pricePrefix: "Starting from",
+          "Fast, responsive websites designed around your brand and built to support your goals.",
+        price: "Custom",
+        cycle: "Scope-based pricing",
+        pricePrefix: "",
         badge: null,
         features: [
-          { text: "Custom Shopify theme design & development" },
-          { text: "Product catalogue & collection setup" },
-          { text: "Payment gateway & checkout configuration" },
+          { text: "Custom website design & development" },
+          { text: "Responsive layouts for every screen" },
+          { text: "Content management & integrations" },
           { text: "SEO basics & page speed optimization" },
-          { text: "Mobile-first, conversion-focused design" },
-          { text: "7–14 day delivery timeline" },
+          { text: "Accessible, user-friendly experiences" },
+          { text: "Delivery tailored to your project scope" },
         ],
       },
       {
@@ -288,7 +292,7 @@ export const content = {
           { text: "Scalable cloud architecture" },
           { text: "Admin panel & analytics" },
           { text: "Dedicated full-stack team" },
-          { text: "Flexible payment structuret" },
+          { text: "Flexible payment structure" },
         ],
       },
     ] as Service[],
